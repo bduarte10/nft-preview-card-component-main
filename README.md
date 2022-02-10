@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot do projeto](/images/Captura da Web_10-2-2022_143327_127.0.0.1.jpeg)
+![Screenshot do projeto](/Screenshot-do-projeto.jpeg)
 
 ### Links
 
