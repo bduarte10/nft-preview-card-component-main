@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+	--Soft-blue: hsl(215, 51%, 70%);
+	--Cyan: hsl(178, 100%, 50%);
+
+	/*    Neutral     */
+
+	--White: hsl(0, 0%, 100%);
+	--main-bg: hsl(217, 54%, 11%);
+	--card-bg: hsl(216, 50%, 16%);
+	--line: hsl(215, 32%, 27%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+	border-radius: 1rem;
+	max-width: 100%;
+}
+ul {
+	justify-content: space-between;
+	display: flex;
+	list-style-type: none;
+}
+
+ul li {
+	display: flex;
+	justify-content: space-around;
+	color: var(--Cyan);
+	font-size: 1rem;
+}
+.clock {
+	color: var(--Soft-blue);
+}
+
+ul li img {
+	padding-right: 0.4rem;
+	align-self: center;
+}
+
+p {
+	font-weight: 300;
+}
+.container {
+	max-width: 350px;
+	box-shadow: 0rem 1rem 0.7rem rgba(20, 20, 20, 0.226);
+	margin-bottom: 1rem;
+	padding: 1.6rem;
+	background-color: var(--card-bg);
+	border-radius: 1rem;
+}
+
+.container h2 {
+	color: var(--White);
+	margin: 1rem 0.5rem 0.5rem 0;
+}
+
+.info h2 {
+	font-size: 1.3rem;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+.info h2:hover {
+	color: var(--Cyan);
+}
+
+.info p {
+	font-size: 1rem;
+	line-height: 1.7rem;
+	padding-bottom: 1rem;
+	color: var(--Soft-blue);
+}
+
+.avatar {
+	border-top: solid 1px var(--line);
+	display: flex;
+	margin-top: 1rem;
+	padding: 1.1rem 0rem 0 0;
+	align-items: center;
+}
+.avatar p {
+	padding-left: 1rem;
+	font-size: 1rem;
+	color: var(--Soft-blue);
+}
+.avatar p span {
+	color: var(--White);
+}
+.avatar p span:hover {
+	color: var(--Cyan);
+}
+.avatar img {
+	border: 1px solid var(--White);
+}
+.main-image {
+	position: relative;
+	max-width: 350px;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.main-image .eye {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+.main-image div {
+	height: calc(100% - 5px);
+}
+.main-image:hover .eye {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 1;
+	transition: 0.5s ease;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: var(--Cyan);
+	border-radius: 1rem;
+}
+
+.main-image:hover .overlay {
+	opacity: 0.5;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: 'Outfit', sans-serif;
+	font-size: 18px;
+	height: 100vh;
+	background-color: var(--main-bg);
+	color: hsl(0, 0%, 100%, 60%);
+	padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.attribution {
+	font-size: 12px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
