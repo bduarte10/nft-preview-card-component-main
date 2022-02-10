@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [solution URL](https://github.com/bduarte10/nft-preview-card-component-main)
--   Live Site URL: [live site URL ](https://bduarte10.github.io/nft-preview-card-component-main/)
+-   Solution URL: [https://github.com/bduarte10/nft-preview-card-component-main](https://github.com/bduarte10/nft-preview-card-component-main)
+-   Live Site URL: [https://bduarte10.github.io/nft-preview-card-component-main/](https://bduarte10.github.io/nft-preview-card-component-main/)
 
 ## My process
 
